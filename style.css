@@ -63,7 +63,11 @@ p {
 .btn-2{
     background-color: pink;
     box-shadow: 5px 5px 2px rgb(162, 74, 89);
-    animation: bounce 2s ease-in-out infinite alternate;
+    -webkit-animation: bounce 2s ease-in-out infinite alternate;
+    -ms-animation: bounce 2s ease-in-out infinite alternate;
+    -moz-animation: bounce 2s ease-in-out infinite alternate;
+    -o-animation: bounce 2s ease-in-out infinite alternate;
+
 
 }
 
@@ -80,7 +84,11 @@ p {
 }
 
 .btn-3{
-    animation: fade 1.5s ease-out infinite alternate;
+    -webkit-animation: fade 1.5s ease-out infinite alternate;
+    -ms-animation: fade 1.5s ease-out infinite alternate;
+    -moz-animation: fade 1.5s ease-out infinite alternate;
+    -o-animation: fade 1.5s ease-out infinite alternate;
+
 }
 
 @keyframes fade {
