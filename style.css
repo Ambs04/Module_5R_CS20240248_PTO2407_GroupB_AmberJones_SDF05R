@@ -63,12 +63,8 @@ p {
 .btn-2{
     background-color: pink;
     box-shadow: 5px 5px 2px rgb(162, 74, 89);
-    animation-name: bounce;
-    animation-duration: 2s;
-    animation-delay: none;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation: bounce 2s ease-in-out infinite alternate;
+
 }
 
 @keyframes bounce {
@@ -84,12 +80,7 @@ p {
 }
 
 .btn-3{
-    animation-name: fade;
-    animation-duration: 1.5s;
-    animation-delay: none;
-    animation-timing-function: ease-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation: fade 1.5s ease-out infinite alternate;
 }
 
 @keyframes fade {
